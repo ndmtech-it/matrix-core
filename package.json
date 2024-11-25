@@ -1,0 +1,38 @@
+{
+	"name": "Matrix - Core module",
+	"version": "0.1",
+	"description": "Matrix streaming server manager platform",
+	"keywords": [
+		"matrix"
+	],
+	"homepage": "https://ndmtech.it/products/matrix",
+	"bugs": {
+		"url": "https://ndmtech.it/products/matrix/issues",
+		"email": "issues@ndmtech.it"
+	},
+	"author": {
+		"name": "NDM Tech",
+		"email": "info@ndmtech.it",
+		"url": "https://ndmtech.it"
+	},
+	"funding": [
+		{
+			"type": "individual",
+			"url": "https://ndmtech.it/donate"
+		},
+		"http://paypal.me/NDMTech",
+		{
+			"type": "patreon",
+			"url": "https://www.patreon.com/NDMTech"
+		}
+	],
+	"license": "UNLICENSED",
+	"type": "module",
+	"dependencies": {
+		"@hokify/agenda": "^6.3.0",
+		"agenda": "^5.0.0",
+		"node-ipc": "^11.1.0",
+		"restify": "^11.1.0"
+	},
+	"main": "matrix-core"
+}
