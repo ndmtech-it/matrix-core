@@ -1,5 +1,5 @@
 {
-	"name": "Matrix - Core module",
+	"name": "@ndmtech-it/matrix-core",
 	"version": "0.1",
 	"description": "Matrix streaming server manager platform",
 	"keywords": [
@@ -27,6 +27,9 @@
 		}
 	],
 	"license": "UNLICENSED",
+	"repository": {
+		"url": "https://github.com/ndmtech-it/matrix-core.git"
+	},
 	"type": "module",
 	"dependencies": {
 		"@hokify/agenda": "^6.3.0",
